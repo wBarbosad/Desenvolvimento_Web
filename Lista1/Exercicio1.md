@@ -10,3 +10,4 @@
 
     1 - Promt = Leia = input = scanf
     2. console.log(" ") = escreva = print = printf
+    3. console.log("\n) pula linha e html = <br>

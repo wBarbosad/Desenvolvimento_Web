@@ -1,0 +1,37 @@
+O HTML é a estrutura do site, o esqueleto.
+
+Instalar extensões
+    - Live server 
+    - Material icon theme
+
+Extensões de arquivos (Tipo de dado que o arquivo vai transmitir [txt, port, c, c++, pdf])
+    - Tudo que vem depois do ponto {.pdf, .js, .java, .por, .html}
+
+TAGS: 
+
+    1. <html>
+    2. <head>
+    3. <body>
+    4. <h1>, <h2> - Grau de importância dos títulos/textos. 
+    
+Abrir e fechar uma TAG:  <> </> Informação daquele conteúdo
+
+JAVA: 
+
+    Declarar variáveis usando o var <nomevariavel> (var palavra reservada)
+
+Como exercutar um arquivo .js:
+    Abrir o terminal
+    Entrar na pasta do arquivo | cd nome-da-pasta
+    Executar arquivo .js | node nome-do-arquivo.js
+    Listar arquivos dentro da pasta - | ls - dir
+    Limpar tela | clear - cls
+
+
+console.log(idade) == escreva
+
+Tipos não definitidos:
+
+undefined, null
+
+prompt == leia()

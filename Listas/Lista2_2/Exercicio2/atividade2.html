@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Banco azul da Fortuna</title>
+        
+    </head>
+
+    <body>
+        <img src="/img/banco.jpg"
+        width="400"
+        height="300"/>
+        </br>
+
+    </body>
+
+    <script>
+        var nome = prompt("Informe o seu nome completo: ")
+        var idade = Number.parseInt(prompt("Informe a sua idade: "))
+        var email = prompt("Informe o seu e-mail: ")
+        var telefone = Number.parseInt(prompt("Informe o seu telefone: "))
+        var cpf = Number.parseFloat(prompt("Informe o seu cpf: "))
+        var endereco = prompt("Informe o seu endereço: ")
+
+        
+        document.writeln("<br>Bem-vindo(a) ao banco Azul da Fortuna!")
+        document.writeln("<br>Seu nome completo é: ", nome, ", você tem ", idade, " anos", ", você mora na Rua ", endereco)
+        document.writeln("<br>O seu e-mail de acesso é: ", email)
+        document.writeln("<br>Seu identificador é: ", cpf)
+        document.writeln("<br>Dados para contato: ", telefone)
+
+    </script>
+
+</html>

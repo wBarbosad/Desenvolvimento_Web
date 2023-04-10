@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var nomeEmpresa = prompt("Informe o nome da empresa: ")
+    var cnpjEmpresa = Number.parseFloat(prompt("Informe o CNPJ da empresa: "))
+    var tipoDeEmpresa = prompt("Informe o ramo da empresa: ")
+    var quantidadeFuncionariosEmpresa = Number.parseFloat(prompt("Informe a quantidade de funcionários da empresa: "))
+    var empresa = []
+    
+    var empresa01 = {
+        nome: nomeEmpresa,
+        cnpj: cnpjEmpresa,
+        quantidadeFuncioario: quantidadeFuncionariosEmpresa,
+        tipo: tipoDeEmpresa
+    }
+
+    empresa.push(empresa01)
+    document.writeln("Nome empresa: ", empresa[0].nome, "<br>", "CNPJ: ", empresa[0].cnpj) //Acessei a lista na posição 0 = a oposição em que está o objeto e acesso a chave nome!
+
+</script>
+</html>

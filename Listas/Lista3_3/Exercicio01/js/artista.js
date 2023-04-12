@@ -1,0 +1,5 @@
+var artista = {
+    nome: "",
+    estilo: ""
+}
+

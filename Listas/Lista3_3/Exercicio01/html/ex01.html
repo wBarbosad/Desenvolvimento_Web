@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var filmeFavorito = prompt("Informe o seu filme favorito: ")
+    var anoLancamento = Number.parseInt(prompt("Informe o ano de lançamento do filme: "))
+    var nomeProtagonista = prompt("Informe o nome do protagonista: ");
+    var dataBase = []
+    var filme = {
+        nome: filmeFavorito,
+        lancamento: anoLancamento,
+        protagonista: nomeProtagonista
+    }
+
+    dataBase.push(filme)
+    document.writeln("<br>Nome do filme: ", dataBase[0].nome)
+    document.writeln("<br>Lançamento: ", dataBase[0].lancamento)
+    document.writeln("<br>Protagonista: ", dataBase[0].protagonista)
+</script>
+</html>

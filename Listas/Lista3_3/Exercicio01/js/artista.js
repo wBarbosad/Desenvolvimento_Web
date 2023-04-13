@@ -1,5 +1,0 @@
-var artista = {
-    nome: "",
-    estilo: ""
-}
-

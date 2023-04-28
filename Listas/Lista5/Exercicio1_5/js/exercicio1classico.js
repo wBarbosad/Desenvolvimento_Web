@@ -40,5 +40,5 @@ for (let i = 0; i < lista.length; i++) {
     else{
         console.log(`\nOlá ${lista[i].nome}!\nBem-vindo(a) você não é o(a) não administrador(a) do sistema, enviamos um email para ${lista[i].email} para você criar uma senha`)
     }
-    
 }
+console.log("\n")

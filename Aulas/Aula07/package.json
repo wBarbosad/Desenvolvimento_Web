@@ -1,0 +1,15 @@
+{
+  "name": "aula07",
+  "version": "1.0.0",
+  "description": "Primeira API usando node js e express",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

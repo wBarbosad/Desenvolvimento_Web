@@ -5,7 +5,7 @@ const lancheShema = mongoose.Schema({
     descricao: {type: String, required: true},
     fabricante: {type: String, required: true},
     emEstoque: {type: Boolean, required: true},
-    publicadoEm: {type: Date, required: true}
+    publicadoEm: {type: Date, required: true} //Não consegui usar adequadamente.
 })
 
 

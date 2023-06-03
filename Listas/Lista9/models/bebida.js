@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 
-
-const bebidaShema = mongoose.Schema({ //Características/propriedades das bebidas;
+const bebidaShema = mongoose.Schema({
     nome: {type: String, required: true},
     descricao: {type: String, required: true},
     fabricante: {type: String, required: true},
@@ -9,6 +8,7 @@ const bebidaShema = mongoose.Schema({ //Características/propriedades das bebida
     publicadoEm: {type: Date, required: true}
 })
 
-const bebida = mongoose.model("Bebidas", bebidaShema) //Criar um modelo chamado "Bebidas" com características citadas acima.
+
+const bebida = mongoose.model("Bebida", bebidaShema)
 
 module.exports = bebida

@@ -1,0 +1,11 @@
+<p><{{ mensagem }}</p> <!-- Acessa a variavel mensagem; -->
+
+<span>Olá {{nome }} voce tem {{idade }} anos e é um(a) {{ profissao }}</span>
+
+
+<div *ngFor="let animal of listaAnimais">
+  <p>Identificação: {{ animal.id}} </p>
+  <p>Nome: {{ animal.nome }} </p>
+  <p>Raça: {{ animal.raca }}</p>
+
+</div>

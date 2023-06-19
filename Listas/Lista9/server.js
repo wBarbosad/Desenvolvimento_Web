@@ -31,6 +31,7 @@ app.get('/listar-lanches', async (req, res) => {
 })
 app.post('/cadastrar-bebida', async (req, res) => {
     try {
+        
         let { nome, descricao, fabricante, emEstoque, publicadoEm } = req.body
 
         let bebida = {
@@ -63,4 +64,5 @@ mongoose.connect(connectString, { //Faz a conexão com o banco de dados
 }).catch((error) => {
     console.log(error)
 })
+
 
